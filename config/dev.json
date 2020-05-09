@@ -1,0 +1,8 @@
+{
+    "port": 20200,
+    "server": "localhost",
+    "database": "demo",
+    "username": "root",
+    "password": "****",
+    "drivername": "mysql"
+}
