@@ -11,7 +11,7 @@ import (
 // GetConfig to make sure that was configured
 func (Config) GetConfig() Config {
 
-	fPath := buildAbsPath("./src/config/dev.json")
+	fPath := buildAbsPath("./config/dev.json")
 	openFile := openFile(fPath)
 	bytes := readAllBytes(openFile)
 
